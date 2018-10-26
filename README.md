@@ -23,6 +23,7 @@ Add `text()` to thumbor url at `filters` section, method signature is like this:
 
 You can omit `font-family`, it will use `Tahoma` as default.
 For `color`, please see available color here http://pillow.readthedocs.io/en/4.0.x/reference/ImageColor.html#color-names
+
 For `align`, use one of `none`, `left`, `center`, `right`. If omitted or `none`, `x`and `y` define the top left point of the text area, otherwise, they define (respectively) the middle-{left,center,right} of teh text area
 
 Here'are some examples:
